@@ -1,0 +1,30 @@
+.container {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 1.5rem 2rem 1rem;
+}
+
+.header p {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    display: none;
+    position: absolute;
+  }
+  .mobileSideBar {
+    display: unset;
+    transform: translateY(5%);
+  }
+}

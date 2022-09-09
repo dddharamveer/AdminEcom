@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  border-radius: 1rem;
+  margin: 0 0.5rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.header > p:first-child {
+  margin-bottom: 1rem;
+  color: #81848b;
+  font-weight: 500;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+.header {
+  padding-right: 2rem;
+}
+.header > p:last-child {
+  font-weight: bold;
+}
+.Icon {
+  display: flex;
+  color: white;
+  padding: 1rem;
+
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-right: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+  }
+}

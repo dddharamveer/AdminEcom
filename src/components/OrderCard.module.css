@@ -1,0 +1,32 @@
+.MainContainer {
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+  margin-right: 0.5rem;
+}
+
+.InsideContainer {
+  border-radius: 0.5rem;
+  margin-left: 0.2rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header p {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.header p:first-child {
+  padding-right: 3rem;
+}
+.Icons {
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+}
